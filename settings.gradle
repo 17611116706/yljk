@@ -1,0 +1,7 @@
+include ':MyDoctor'
+include ':HomeDoctor'
+include ':LoginDoctor'
+include ':IMDoctor'
+//include ':MainDoctor'
+include ':app'
+rootProject.name = "YLjkProject"

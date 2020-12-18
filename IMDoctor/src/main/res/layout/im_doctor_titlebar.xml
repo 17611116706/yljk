@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/im_doctor_titlebar"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:background="@drawable/im_left"
+        android:layout_marginLeft="17.5dp"
+        android:layout_width="15dp"
+        android:layout_height="22dp"></ImageView>
+    <TextView
+
+        android:id="@+id/im_doctor_name"
+        android:text="@string/im_doctor_name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"></TextView>
+
+</RelativeLayout>

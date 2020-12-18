@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4F4F4"
+    android:fitsSystemWindows="true"
+    tools:context=".IMDoctorActivity">
+        <LinearLayout
+            android:id="@+id/im_doctor_outside"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+                android:layout_weight="1">
+                <include layout="@layout/im_doctor_titlebar"></include>
+                <include layout="@layout/im_doctor_interrogationing"></include>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/im_doctor_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    ></androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+        <include layout="@layout/im_doctor_interrogationting_send"></include>
+
+
+</LinearLayout>

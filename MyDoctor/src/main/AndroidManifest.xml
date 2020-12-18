@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yljk.mydoctor">
+
+    <application
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YLjkProject">
+        <activity android:name="com.yljk.mydoctor.MyDoctorActivity">
+        </activity>
+    </application>
+</manifest>

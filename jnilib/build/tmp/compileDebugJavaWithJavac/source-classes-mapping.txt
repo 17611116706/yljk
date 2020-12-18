@@ -1,0 +1,2 @@
+cn/org/bjca/ywq/jnilib/BuildConfig.java
+ cn.org.bjca.ywq.jnilib.BuildConfig

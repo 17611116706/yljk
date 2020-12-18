@@ -1,0 +1,14 @@
+<resources>
+    <string name="im_doctor_name">郑成功医生</string>
+    <string name="im_doctor_interrogationing">问诊中</string>
+    <string name="im_doctor_interrogationInfo">00小时00分后问诊自动结束</string>
+    <string name="im_doctor_interrogationer_name">顾百在 女 45岁</string>
+    <string name="im_doctor_interrogationer_button">长按说话</string>
+    <string name="im_doctor_interrogationer_text">请描述您的问题，至少两个字</string>
+    <string name="im_doctor_interrogationer_talking">我头疼的厉害</string>
+    <string name="im_doctor_interrogationer_listinfo">病情描述：头疼的厉害，大概一个月了</string>
+    <string name="im_doctor_interrogationer_prompt">您的信息仅医生可见，请放心问诊</string>
+    <string name="im_doctor_warm_tip">温馨提示:你可以继续补充问诊信息，便于更快确认病情，医生均在临床一线工作，还请耐心等待，医生接诊时会第一时间通知您。</string>
+
+
+</resources>

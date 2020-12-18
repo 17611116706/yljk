@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.yljk.imdoctor">
+
+    <application
+
+        android:name="debug.IMDoctorApplication"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YLjkProject">
+        <activity android:name="com.yljk.imdoctor.IMDoctorActivity">
+        </activity>
+    </application>
+
+</manifest>

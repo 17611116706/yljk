@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingTop="18dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/im_doctor_patients_img"
+        android:layout_marginRight="14dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/im_doctor_persion"
+        ></ImageView>
+    <RelativeLayout
+        android:id="@+id/relative_id"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@+id/im_doctor_patients_img"
+        android:background="@drawable/im_doctor_interrogation_liststyle"
+        android:layout_width="240dp"
+        android:layout_height="158dp">
+        <TextView
+            android:id="@+id/im_doctor_patients_persioninfo"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#1A1A1A"
+            android:text="@string/im_doctor_interrogationer_name"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"></TextView>
+        <View
+            android:layout_marginTop="38.5dp"
+            android:background="#EDEDED"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></View>
+        <TextView
+            android:id="@+id/im_doctor_patients_description"
+            android:layout_centerHorizontal="true"
+            android:text="@string/im_doctor_interrogationer_listinfo"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="66dp"
+            ></TextView>
+        <TextView
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/im_doctor_interrogation_promptstyle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></TextView>
+        <TextView
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:layout_marginTop="130dp"
+            android:text="@string/im_doctor_interrogationer_prompt"
+            android:layout_centerHorizontal="true"
+            android:layout_width="210dp"
+            android:layout_height="20dp"></TextView>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_below="@id/relative_id"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@+id/im_doctor_patients_img"
+        android:text="@string/im_doctor_warm_tip"
+        android:textColor="#818181"
+        android:textSize="12sp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"></TextView>
+
+</RelativeLayout>

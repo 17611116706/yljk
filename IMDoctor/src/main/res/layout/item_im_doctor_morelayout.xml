@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="100dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_im_doctor_more_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"></ImageView>
+    <TextView
+        android:layout_below="@id/item_im_doctor_more_img"
+        android:text="@string/im_doctor_interrogationer_button"
+        android:id="@+id/item_im_doctor_more_title"
+        android:layout_width="100dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"></TextView>
+</RelativeLayout>

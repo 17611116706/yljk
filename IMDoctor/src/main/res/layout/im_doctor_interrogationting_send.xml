@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="75dp">
+
+    <ImageView
+        android:id="@+id/write_change_voice"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/im_doctor_write"
+        ></ImageView>
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="12dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/im_doctor_more"
+        ></ImageView>
+
+    <Button
+        android:id="@+id/send_talking"
+        android:button="@null"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:text="@string/im_doctor_interrogationer_button"
+        android:layout_centerInParent="true"
+        android:layout_width="278dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bottom_bt_style"
+        ></Button>
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/send_writing"
+        android:button="@null"
+        android:textSize="14sp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="17dp"
+        android:hint="@string/im_doctor_interrogationer_text"
+        android:layout_centerInParent="true"
+        android:layout_width="278dp"
+        android:layout_height="44dp"
+        android:background="@drawable/bottom_text_style"
+        ></EditText>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+</RelativeLayout>

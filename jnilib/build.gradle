@@ -1,0 +1,11 @@
+apply plugin: 'com.android.library'
+
+
+def _ext = rootProject.ext
+def _compileSdkVersion = _ext.has('compileSdkVersion') ? _ext.compileSdkVersion : 27
+def _buildToolsVersion = _ext.has('buildToolsVersion') ? _ext.buildToolsVersion : '28.0.3'
+
+android {
+    compileSdkVersion _compileSdkVersion
+    buildToolsVersion _buildToolsVersion
+}
